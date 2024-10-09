@@ -23,7 +23,9 @@ const Row = ({ title, isHighlighted, color, children }) => {
 
 const clonedElement = cloneElement(
   <Row title="Cabbage">Hello</Row>,
+  // adding props
   { isHighlighted: true, color: "pink" },
+  // adding children
   "Goodbye",
 );
 

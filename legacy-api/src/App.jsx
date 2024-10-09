@@ -1,6 +1,4 @@
-import RenderPropComponent from "./apis/children/alternatives/renderProps-3";
-import { CloneComponent } from "./apis/cloneElement/index.jsx";
-import Example1 from "./apis/cloneElement/examples/index.jsx";
+import MouseTrackerComponent from "./apis/renderProps/index.jsx";
 
 function App() {
   return (
@@ -13,7 +11,8 @@ function App() {
       {/* <RenderPropComponent /> */}
       {/*  */}
       {/* <CloneComponent/> */}
-      <Example1 />
+      {/* <Example1 /> */}
+      <MouseTrackerComponent />
     </>
   );
 }

@@ -1,5 +1,10 @@
 original JSX received by List looks like this:
 
+syntax:
+```javascript
+const clonedElement = cloneElement(element, props, ...children)
+```
+
 ```javascript
 <List>
   <Row title="Cabbage" />
@@ -40,6 +45,7 @@ export const products = [
 {products.map((product) => (
   cloneElement(
     <Row key={product.id} title={product.title} />,
+     // props
      {
       isHighlighted: index === selectedIndex,
     })

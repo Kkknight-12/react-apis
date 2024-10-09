@@ -1,4 +1,4 @@
-import List from "./List.js";
+import List from "./List.jsx";
 
 export const products = [
   { title: "Cabbage", id: 1 },
